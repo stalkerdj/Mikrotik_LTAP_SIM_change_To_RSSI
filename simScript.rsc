@@ -52,6 +52,6 @@
 		}
 	} else={
 		:log info message="LTE modem did not appear, trying power-reset"
-		/system routerboard usb power-reset duration=5s
+		/interface lte at-chat lte1 input="AT+reset"
 	}		
 }

@@ -4,4 +4,4 @@
 Original script: https://wiki.mikrotik.com/wiki/Dual_SIM_Application
 
 # установка планировщика
-/system scheduler add interval=4m on-event=failoverScript name="SIM Switch"
+/system scheduler add interval=4m on-event=simScript name="SIM Switch"
